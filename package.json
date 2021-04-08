@@ -1,0 +1,35 @@
+{
+  "name": "btcticker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akhilesh Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "@rodrigogs/mysql-events": "^0.6.0",
+    "cheerio": "^1.0.0-rc.5",
+    "events": "^3.3.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.0",
+    "fs": "0.0.1-security",
+    "iconv-lite": "^0.6.2",
+    "jquery": "^3.6.0",
+    "jsdom": "^16.5.2",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "mysql-events": "0.0.11",
+    "mysqli": "^3.0.11",
+    "ora": "^5.4.0",
+    "os": "^0.1.1",
+    "request": "^2.88.2",
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.7"
+  }
+}
