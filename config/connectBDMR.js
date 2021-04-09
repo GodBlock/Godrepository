@@ -2,9 +2,9 @@
 let conn = new MySqli({
     host: 'localhost',
     port: '3306',
-    user: 'mtri4787_admin',
-    passwd: '[k]I(tQ}FvTA',
-    db: 'mtri4787_registration'
+    user: ''********',',
+    passwd: '********',',
+    db: ''********','
 });
 
 let db2 = conn.emit(false, '');
