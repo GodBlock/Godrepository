@@ -146,8 +146,8 @@ const spinner = ora({
 const program = async () => {
   const connection = mysql.createConnection({
   host:     'localhost',
-  user:     'mtri4787_admin',
-  password: '[k]I(tQ}FvTA'
+  user:     '********',
+  password: '*********A'
   });
 
   const instance = new MySQLEvents(connection, {
